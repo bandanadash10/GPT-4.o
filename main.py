@@ -7,7 +7,7 @@ import openai
 # configuring openai - api key
 working_dir = os.path.dirname(os.path.abspath(__file__))
 config_data = json.load(open(f"{working_dir}/config.json"))
-OPENAI_API_KEY = config_data["OPENAI_API_KEY"]
+OPENAI_API_KEY = config_data["sk-proj-zUiTnDWMPlC8CCP52qduT3BlbkFJHBpXTvQom0L5SfxBbp6h"]
 openai_api_key = OPENAI_API_KEY
 
 #configuring streamlit page settings
